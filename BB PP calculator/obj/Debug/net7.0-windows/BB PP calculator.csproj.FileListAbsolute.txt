@@ -25,3 +25,6 @@ F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Debug\net7.0
 F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Debug\net7.0-windows\BB PP calculator.csproj.AssemblyReference.cache
 F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Debug\net7.0-windows\BB PP calculator.csproj.CopyComplete
 F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Debug\net7.0-windows\BB_PP_calculator.bbppc.resources
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Debug\net7.0-windows\Guna.UI2.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Debug\net7.0-windows\System.Management.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll

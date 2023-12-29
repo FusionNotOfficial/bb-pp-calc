@@ -25,7 +25,6 @@ F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7
 F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.pdb
 F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.genruntimeconfig.cache
 F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\ref\BB PP calculator.dll
-F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.dll.manifest
-F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.application
-F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.dll.manifest
-F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.application
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\Guna.UI2.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\System.Management.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll

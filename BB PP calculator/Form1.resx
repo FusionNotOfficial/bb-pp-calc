@@ -2712,4 +2712,33 @@
         AABJRU5ErkJggg==
 </value>
   </data>
+  <data name="QuitButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAANjr9RwUqgAAACBjSFJNAABt
+        mAAAc44AAN2sAACH0wAAbygAAMKIAAA09QAAKuKc5RYjAAAACXBIWXMAAAsMAAALDAE/QCLIAAADv0lE
+        QVR4Xu3d0WkcURBEUYXgEBSCQ3AIDsEhOASH4lAcgkNwCM5AnoZtEOIKrN1587q7quGwUB8jLVUIif3Q
+        08vLiwnD0HRgaDowNB0Ymg4MTQeGpgND04Gh6cDQdGBoOjA0HRiaDgxNB4amA0PTgaHpwNB0YGg6MDQd
+        GJoODE0Hhid6Pnz5IHrONJ8P9N7f8+lAz3kYhif6cfjo/TzQs6b4dvjoxQjoWQ/D8ET3DCBu6gjuKT9O
+        bgBx00Zwb/lxkgOImzKCR8qPkx1AXPcRPFp+nPQA4rqO4Izy4+QHENdtBGeVH+cB3K7LCM4sP84DeHXV
+        R3B2+XEewJurOoIV5cd5AHDVRrCq/DgP4J2rMoKV5ce1HUB8iPH7sPJ2j2B1+UvfH4YnmzyC1uUHDBeY
+        OIL25QcMF5k0ghHlBwwXmjCCMeUHDBfrPIJR5QcML9BxBOPKDxhepNMIRpYfMLxQhxGMLT9geLHKIxhd
+        fsBwg4ojGF9+wHCTSiOQKD9guFGFEciUHzDcbOcIpMoPGBawYwRy5QcMi7hyBJLlBwwLuWIEv26vq65s
+        +QHDYq4YwaorXX7AsKCOIyhffsCwqE4jaFF+wLCwDiNoU37AsLjKI2hVfsCwgYojaFd+wLCJSiNoWX7A
+        sJEKI2hbfsCwmZ0jaF1+wLChHSNoX37AsKkrRzCi/IBhYzGCP4eVF8+nr90Sho2t/lQvzz8BCrqq/Dz/
+        DlDI1eXn+a+AAnaVn9d6BBg2srv8vLYjwLCJKuXntRwBhg1UKz+v3QgwLK5q+XmtRoBhYdXLz2szAgyL
+        6lJ+XosRYFhQt/Lzyo8Aw2JWl//39rrqSo8Aw0JWl5/lxOvKKzsCDIu4qvwkOQIMC7i6/CQ3Agw321V+
+        khoBhhvtLj/JjADDTaqUnyRGgOEG1cpP40eA4cWqlp9GjwDDC1UvP40dAYYX6VJ+GjkCDC/Qrfw0bgQY
+        Lta1/DRqBBgu1L38NGYEGC4ypfw0YgQYLjCt/NR+BBiebGr5qfUIMDzR18PK211+Wj0C/+tYuCrlp5Uj
+        8ADeXLXy06oReACvrmr5acUIPIDbVS8/nT0CD+C4LuWnM0cgP4Bu5aezRiA9gK7lpzNGIDuA7uWnR0cg
+        OYAp5adHRiA3gGnlp3tHIDWAqeWne0bQdgDxjccI/tf3Az1nmnif9P7f83yg5zwMQ9OBoenA0HRgaDow
+        NB0Ymg4MTQeGpgND04Gh6cDQdGBoOjA0HRiaDgxNB4amA0PTgaHpwNB0YGg6MDQdGJoODE3Fy9M/wmhp
+        KNOPwNsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="sidebarTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>186, 17</value>
+  </metadata>
 </root>

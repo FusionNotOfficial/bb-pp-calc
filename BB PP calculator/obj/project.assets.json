@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     "net7.0-windows7.0": {
+      "Guna.UI2.WinForms/2.0.4.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Management": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0-windows7.0/Guna.UI2.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Guna.UI2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -73,6 +88,22 @@
           }
         }
       },
+      "System.CodeDom/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Data.SqlClient/4.8.5": {
         "type": "package",
         "dependencies": {
@@ -96,6 +127,31 @@
             "rid": "unix"
           },
           "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Management.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -166,6 +222,28 @@
     }
   },
   "libraries": {
+    "Guna.UI2.WinForms/2.0.4.6": {
+      "sha512": "NYzSJp7e47Cz3NgGCHvzadash8ycmxxUnpLg4Rr/MSYG9WDw0HOoTI4SkbDW+HbACrf6tsWYCuzWkgvjuM/O6w==",
+      "type": "package",
+      "path": "guna.ui2.winforms/2.0.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+        "guna.ui2.winforms.nuspec",
+        "icon.png",
+        "lib/net40/Guna.UI2.dll",
+        "lib/net45/Guna.UI2.dll",
+        "lib/net461/Guna.UI2.dll",
+        "lib/net472/Guna.UI2.dll",
+        "lib/net48/Guna.UI2.dll",
+        "lib/net6.0-windows7.0/Guna.UI2.dll",
+        "lib/net7.0-windows7.0/Guna.UI2.dll",
+        "lib/netcoreapp3.1/Guna.UI2.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
@@ -293,6 +371,33 @@
         "version.txt"
       ]
     },
+    "System.CodeDom/7.0.0": {
+      "sha512": "GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
+      "type": "package",
+      "path": "system.codedom/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/net6.0/System.CodeDom.xml",
+        "lib/net7.0/System.CodeDom.dll",
+        "lib/net7.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.7.0.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Data.SqlClient/4.8.5": {
       "sha512": "fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
       "type": "package",
@@ -377,6 +482,34 @@
         "system.data.sqlclient.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "System.Management/7.0.0": {
+      "sha512": "A4jed4QUviDOm7fJNKAJObEAEkEUXmkGL/w0iyCYTzrl1rezTj8LGFHfsVst4Vb9JwFcTpboiDrvdST48avBpw==",
+      "type": "package",
+      "path": "system.management/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "lib/net462/_._",
+        "lib/net6.0/System.Management.dll",
+        "lib/net6.0/System.Management.xml",
+        "lib/net7.0/System.Management.dll",
+        "lib/net7.0/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net6.0/System.Management.dll",
+        "runtimes/win/lib/net6.0/System.Management.xml",
+        "runtimes/win/lib/net7.0/System.Management.dll",
+        "runtimes/win/lib/net7.0/System.Management.xml",
+        "system.management.7.0.0.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Security.AccessControl/4.7.0": {
@@ -487,6 +620,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
+      "Guna.UI2.WinForms >= 2.0.4.6",
       "ULControls >= 1.0.0"
     ]
   },
@@ -538,6 +672,12 @@
     "frameworks": {
       "net7.0-windows7.0": {
         "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "Guna.UI2.WinForms": {
+            "target": "Package",
+            "version": "[2.0.4.6, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

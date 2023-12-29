@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bbppc));
             label1 = new Label();
             pictureBox1 = new PictureBox();
@@ -61,7 +62,10 @@
             label2 = new Label();
             pictureBox13 = new PictureBox();
             panel2 = new Panel();
+            QuitButton = new PictureBox();
             calcButton = new ULControls.ULButton();
+            sidebarTimer = new System.Windows.Forms.Timer(components);
+            guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -77,17 +81,19 @@
             resultPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)QuitButton).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Trebuchet MS", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(74, 19);
+            label1.Font = new Font("Tahoma", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(68, 18);
             label1.Name = "label1";
-            label1.Size = new Size(330, 36);
+            label1.Size = new Size(322, 34);
             label1.TabIndex = 0;
             label1.Text = "Power Powder Calculator";
+            label1.MouseDown += Form1_MouseDown;
             // 
             // pictureBox1
             // 
@@ -98,6 +104,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            pictureBox1.MouseDown += Form1_MouseDown;
             // 
             // pictureBox2
             // 
@@ -108,6 +115,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
+            pictureBox2.MouseDown += Form1_MouseDown;
             // 
             // pictureBox3
             // 
@@ -118,6 +126,7 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 1;
             pictureBox3.TabStop = false;
+            pictureBox3.MouseDown += Form1_MouseDown;
             // 
             // pictureBox4
             // 
@@ -128,6 +137,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 1;
             pictureBox4.TabStop = false;
+            pictureBox4.MouseDown += Form1_MouseDown;
             // 
             // pictureBox5
             // 
@@ -138,6 +148,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 1;
             pictureBox5.TabStop = false;
+            pictureBox5.MouseDown += Form1_MouseDown;
             // 
             // pictureBox6
             // 
@@ -148,6 +159,7 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 1;
             pictureBox6.TabStop = false;
+            pictureBox6.MouseDown += Form1_MouseDown;
             // 
             // pictureBox7
             // 
@@ -158,6 +170,7 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 1;
             pictureBox7.TabStop = false;
+            pictureBox7.MouseDown += Form1_MouseDown;
             // 
             // pictureBox8
             // 
@@ -168,6 +181,7 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 1;
             pictureBox8.TabStop = false;
+            pictureBox8.MouseDown += Form1_MouseDown;
             // 
             // pictureBox9
             // 
@@ -178,6 +192,7 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 1;
             pictureBox9.TabStop = false;
+            pictureBox9.MouseDown += Form1_MouseDown;
             // 
             // pictureBox10
             // 
@@ -188,6 +203,7 @@
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 1;
             pictureBox10.TabStop = false;
+            pictureBox10.MouseDown += Form1_MouseDown;
             // 
             // pictureBox11
             // 
@@ -198,6 +214,7 @@
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 1;
             pictureBox11.TabStop = false;
+            pictureBox11.MouseDown += Form1_MouseDown;
             // 
             // pictureBox12
             // 
@@ -208,15 +225,16 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 1;
             pictureBox12.TabStop = false;
+            pictureBox12.MouseDown += Form1_MouseDown;
             // 
             // gs
             // 
-            gs.BackColor = SystemColors.Window;
-            gs.BorderColor = Color.LightSlateGray;
+            gs.BackColor = Color.FromArgb(128, 128, 255);
+            gs.BorderColor = SystemColors.ButtonHighlight;
             gs.BorderFocusColor = Color.HotPink;
-            gs.BorderSize = 2;
+            gs.BorderSize = 3;
             gs.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            gs.ForeColor = Color.DimGray;
+            gs.ForeColor = Color.White;
             gs.Location = new Point(125, 98);
             gs.Multiline = false;
             gs.Name = "gs";
@@ -225,16 +243,17 @@
             gs.Size = new Size(58, 40);
             gs.TabIndex = 2;
             gs.Texts = "";
-            gs.UnderlinedStyle = true;
+            gs.UnderlinedStyle = false;
+            gs.MouseDown += Form1_MouseDown;
             // 
             // gm
             // 
-            gm.BackColor = SystemColors.Window;
-            gm.BorderColor = Color.LightSlateGray;
+            gm.BackColor = Color.FromArgb(128, 128, 255);
+            gm.BorderColor = SystemColors.ButtonHighlight;
             gm.BorderFocusColor = Color.HotPink;
-            gm.BorderSize = 2;
+            gm.BorderSize = 3;
             gm.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            gm.ForeColor = Color.DimGray;
+            gm.ForeColor = Color.White;
             gm.Location = new Point(125, 186);
             gm.Multiline = false;
             gm.Name = "gm";
@@ -243,16 +262,17 @@
             gm.Size = new Size(58, 40);
             gm.TabIndex = 2;
             gm.Texts = "";
-            gm.UnderlinedStyle = true;
+            gm.UnderlinedStyle = false;
+            gm.MouseDown += Form1_MouseDown;
             // 
             // gl
             // 
-            gl.BackColor = SystemColors.Window;
-            gl.BorderColor = Color.LightSlateGray;
+            gl.BackColor = Color.FromArgb(128, 128, 255);
+            gl.BorderColor = SystemColors.ButtonHighlight;
             gl.BorderFocusColor = Color.HotPink;
-            gl.BorderSize = 2;
+            gl.BorderSize = 3;
             gl.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            gl.ForeColor = Color.DimGray;
+            gl.ForeColor = Color.White;
             gl.Location = new Point(125, 285);
             gl.Multiline = false;
             gl.Name = "gl";
@@ -261,16 +281,17 @@
             gl.Size = new Size(58, 40);
             gl.TabIndex = 2;
             gl.Texts = "";
-            gl.UnderlinedStyle = true;
+            gl.UnderlinedStyle = false;
+            gl.MouseDown += Form1_MouseDown;
             // 
             // bs
             // 
-            bs.BackColor = SystemColors.Window;
-            bs.BorderColor = Color.LightSlateGray;
+            bs.BackColor = Color.FromArgb(128, 128, 255);
+            bs.BorderColor = SystemColors.ButtonHighlight;
             bs.BorderFocusColor = Color.HotPink;
-            bs.BorderSize = 2;
+            bs.BorderSize = 3;
             bs.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            bs.ForeColor = Color.DimGray;
+            bs.ForeColor = Color.White;
             bs.Location = new Point(322, 98);
             bs.Multiline = false;
             bs.Name = "bs";
@@ -279,16 +300,17 @@
             bs.Size = new Size(58, 40);
             bs.TabIndex = 2;
             bs.Texts = "";
-            bs.UnderlinedStyle = true;
+            bs.UnderlinedStyle = false;
+            bs.MouseDown += Form1_MouseDown;
             // 
             // bm
             // 
-            bm.BackColor = SystemColors.Window;
-            bm.BorderColor = Color.LightSlateGray;
+            bm.BackColor = Color.FromArgb(128, 128, 255);
+            bm.BorderColor = SystemColors.ButtonHighlight;
             bm.BorderFocusColor = Color.HotPink;
-            bm.BorderSize = 2;
+            bm.BorderSize = 3;
             bm.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            bm.ForeColor = Color.DimGray;
+            bm.ForeColor = Color.White;
             bm.Location = new Point(322, 186);
             bm.Multiline = false;
             bm.Name = "bm";
@@ -297,16 +319,17 @@
             bm.Size = new Size(58, 40);
             bm.TabIndex = 2;
             bm.Texts = "";
-            bm.UnderlinedStyle = true;
+            bm.UnderlinedStyle = false;
+            bm.MouseDown += Form1_MouseDown;
             // 
             // bl
             // 
-            bl.BackColor = SystemColors.Window;
-            bl.BorderColor = Color.LightSlateGray;
+            bl.BackColor = Color.FromArgb(128, 128, 255);
+            bl.BorderColor = SystemColors.ButtonHighlight;
             bl.BorderFocusColor = Color.HotPink;
-            bl.BorderSize = 2;
+            bl.BorderSize = 3;
             bl.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            bl.ForeColor = Color.DimGray;
+            bl.ForeColor = Color.White;
             bl.Location = new Point(322, 285);
             bl.Multiline = false;
             bl.Name = "bl";
@@ -315,16 +338,17 @@
             bl.Size = new Size(58, 40);
             bl.TabIndex = 2;
             bl.Texts = "";
-            bl.UnderlinedStyle = true;
+            bl.UnderlinedStyle = false;
+            bl.MouseDown += Form1_MouseDown;
             // 
             // rs
             // 
-            rs.BackColor = SystemColors.Window;
-            rs.BorderColor = Color.LightSlateGray;
+            rs.BackColor = Color.FromArgb(128, 128, 255);
+            rs.BorderColor = SystemColors.ButtonHighlight;
             rs.BorderFocusColor = Color.HotPink;
-            rs.BorderSize = 2;
+            rs.BorderSize = 3;
             rs.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            rs.ForeColor = Color.DimGray;
+            rs.ForeColor = Color.White;
             rs.Location = new Point(508, 98);
             rs.Multiline = false;
             rs.Name = "rs";
@@ -333,16 +357,17 @@
             rs.Size = new Size(58, 40);
             rs.TabIndex = 2;
             rs.Texts = "";
-            rs.UnderlinedStyle = true;
+            rs.UnderlinedStyle = false;
+            rs.MouseDown += Form1_MouseDown;
             // 
             // rm
             // 
-            rm.BackColor = SystemColors.Window;
-            rm.BorderColor = Color.LightSlateGray;
+            rm.BackColor = Color.FromArgb(128, 128, 255);
+            rm.BorderColor = SystemColors.ButtonHighlight;
             rm.BorderFocusColor = Color.HotPink;
-            rm.BorderSize = 2;
+            rm.BorderSize = 3;
             rm.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            rm.ForeColor = Color.DimGray;
+            rm.ForeColor = Color.White;
             rm.Location = new Point(508, 186);
             rm.Multiline = false;
             rm.Name = "rm";
@@ -351,16 +376,17 @@
             rm.Size = new Size(58, 40);
             rm.TabIndex = 2;
             rm.Texts = "";
-            rm.UnderlinedStyle = true;
+            rm.UnderlinedStyle = false;
+            rm.MouseDown += Form1_MouseDown;
             // 
             // rl
             // 
-            rl.BackColor = SystemColors.Window;
-            rl.BorderColor = Color.LightSlateGray;
+            rl.BackColor = Color.FromArgb(128, 128, 255);
+            rl.BorderColor = SystemColors.ButtonHighlight;
             rl.BorderFocusColor = Color.HotPink;
-            rl.BorderSize = 2;
+            rl.BorderSize = 3;
             rl.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            rl.ForeColor = Color.DimGray;
+            rl.ForeColor = Color.White;
             rl.Location = new Point(508, 285);
             rl.Multiline = false;
             rl.Name = "rl";
@@ -369,16 +395,17 @@
             rl.Size = new Size(58, 40);
             rl.TabIndex = 2;
             rl.Texts = "";
-            rl.UnderlinedStyle = true;
+            rl.UnderlinedStyle = false;
+            rl.MouseDown += Form1_MouseDown;
             // 
             // ps
             // 
-            ps.BackColor = SystemColors.Window;
-            ps.BorderColor = Color.LightSlateGray;
+            ps.BackColor = Color.FromArgb(128, 128, 255);
+            ps.BorderColor = SystemColors.ButtonHighlight;
             ps.BorderFocusColor = Color.HotPink;
-            ps.BorderSize = 2;
+            ps.BorderSize = 3;
             ps.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            ps.ForeColor = Color.DimGray;
+            ps.ForeColor = Color.White;
             ps.Location = new Point(690, 98);
             ps.Multiline = false;
             ps.Name = "ps";
@@ -387,16 +414,17 @@
             ps.Size = new Size(58, 40);
             ps.TabIndex = 2;
             ps.Texts = "";
-            ps.UnderlinedStyle = true;
+            ps.UnderlinedStyle = false;
+            ps.MouseDown += Form1_MouseDown;
             // 
             // pm
             // 
-            pm.BackColor = SystemColors.Window;
-            pm.BorderColor = Color.LightSlateGray;
+            pm.BackColor = Color.FromArgb(128, 128, 255);
+            pm.BorderColor = SystemColors.ButtonHighlight;
             pm.BorderFocusColor = Color.HotPink;
-            pm.BorderSize = 2;
+            pm.BorderSize = 3;
             pm.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            pm.ForeColor = Color.DimGray;
+            pm.ForeColor = Color.White;
             pm.Location = new Point(690, 186);
             pm.Multiline = false;
             pm.Name = "pm";
@@ -405,16 +433,17 @@
             pm.Size = new Size(58, 40);
             pm.TabIndex = 2;
             pm.Texts = "";
-            pm.UnderlinedStyle = true;
+            pm.UnderlinedStyle = false;
+            pm.MouseDown += Form1_MouseDown;
             // 
             // pl
             // 
-            pl.BackColor = SystemColors.Window;
-            pl.BorderColor = Color.LightSlateGray;
+            pl.BackColor = Color.FromArgb(128, 128, 255);
+            pl.BorderColor = SystemColors.ButtonHighlight;
             pl.BorderFocusColor = Color.HotPink;
-            pl.BorderSize = 2;
+            pl.BorderSize = 3;
             pl.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            pl.ForeColor = Color.DimGray;
+            pl.ForeColor = Color.White;
             pl.Location = new Point(690, 285);
             pl.Multiline = false;
             pl.Name = "pl";
@@ -423,7 +452,8 @@
             pl.Size = new Size(58, 40);
             pl.TabIndex = 2;
             pl.Texts = "";
-            pl.UnderlinedStyle = true;
+            pl.UnderlinedStyle = false;
+            pl.MouseDown += Form1_MouseDown;
             // 
             // resultPanel
             // 
@@ -433,11 +463,13 @@
             resultPanel.Controls.Add(label5);
             resultPanel.Controls.Add(label2);
             resultPanel.Dock = DockStyle.Bottom;
-            resultPanel.Location = new Point(0, 407);
+            resultPanel.Location = new Point(0, 489);
+            resultPanel.MaximumSize = new Size(777, 92);
+            resultPanel.MinimumSize = new Size(777, 10);
             resultPanel.Name = "resultPanel";
-            resultPanel.Size = new Size(777, 92);
+            resultPanel.Size = new Size(777, 10);
             resultPanel.TabIndex = 3;
-            resultPanel.Visible = false;
+            resultPanel.Click += resultPanel_Click;
             // 
             // ppTotal
             // 
@@ -478,27 +510,42 @@
             label2.Size = new Size(87, 36);
             label2.TabIndex = 0;
             label2.Text = "Total:";
+            label2.Click += calcButton_Click;
             // 
             // pictureBox13
             // 
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(3, 0);
+            pictureBox13.Location = new Point(12, 5);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(65, 66);
+            pictureBox13.Size = new Size(50, 50);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 1;
             pictureBox13.TabStop = false;
+            pictureBox13.MouseDown += Form1_MouseDown;
             // 
             // panel2
             // 
             panel2.BackColor = Color.SlateBlue;
             panel2.Controls.Add(label1);
             panel2.Controls.Add(pictureBox13);
+            panel2.Controls.Add(QuitButton);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(777, 66);
+            panel2.Size = new Size(777, 55);
             panel2.TabIndex = 4;
+            panel2.MouseDown += Form1_MouseDown;
+            // 
+            // QuitButton
+            // 
+            QuitButton.Image = (Image)resources.GetObject("QuitButton.Image");
+            QuitButton.Location = new Point(724, 2);
+            QuitButton.Name = "QuitButton";
+            QuitButton.Size = new Size(50, 50);
+            QuitButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            QuitButton.TabIndex = 1;
+            QuitButton.TabStop = false;
+            QuitButton.Click += QuitButton_Click;
             // 
             // calcButton
             // 
@@ -520,11 +567,25 @@
             calcButton.UseVisualStyleBackColor = false;
             calcButton.Click += calcButton_Click;
             // 
+            // sidebarTimer
+            // 
+            sidebarTimer.Interval = 15;
+            sidebarTimer.Tick += sidebarTimer_Tick;
+            // 
+            // guna2BorderlessForm1
+            // 
+            guna2BorderlessForm1.BorderRadius = 41;
+            guna2BorderlessForm1.ContainerControl = this;
+            guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            guna2BorderlessForm1.DragForm = false;
+            guna2BorderlessForm1.ResizeForm = false;
+            guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
             // Bbppc
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.MistyRose;
+            BackColor = Color.FromArgb(192, 192, 255);
             ClientSize = new Size(777, 499);
             Controls.Add(calcButton);
             Controls.Add(panel2);
@@ -553,9 +614,10 @@
             Controls.Add(pictureBox4);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            FormBorderStyle = FormBorderStyle.SizableToolWindow;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Bbppc";
             Text = "Bbppc";
+            MouseDown += Form1_MouseDown;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -573,6 +635,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)QuitButton).EndInit();
             ResumeLayout(false);
         }
 
@@ -611,5 +674,8 @@
         private Label label2;
         private PictureBox pictureBox13;
         private ULControls.ULButton calcButton;
+        private PictureBox QuitButton;
+        private System.Windows.Forms.Timer sidebarTimer;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
     }
 }

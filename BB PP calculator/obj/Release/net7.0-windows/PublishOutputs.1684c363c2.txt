@@ -1,0 +1,16 @@
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\BB PP calculator.exe
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\BB PP calculator.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\BB PP calculator.deps.json
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\BB PP calculator.runtimeconfig.json
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\BB PP calculator.pdb
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\Guna.UI2.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\System.Data.SqlClient.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\System.Management.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\runtimes\win-arm64\native\sni.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\runtimes\win-x64\native\sni.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\runtimes\win-x86\native\sni.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\runtimes\win\lib\net7.0\System.Management.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\ULControls.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\publish\ULControls.pdb
