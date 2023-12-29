@@ -1,0 +1,31 @@
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.exe
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.deps.json
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.runtimeconfig.json
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.pdb
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\System.Data.SqlClient.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\runtimes\win-arm64\native\sni.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\runtimes\win-x64\native\sni.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\runtimes\win-x86\native\sni.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\ULControls.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\ULControls.pdb
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.csproj.AssemblyReference.cache
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB_PP_calculator.Bbppc.resources
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB_PP_calculator.Properties.Resources.resources
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.csproj.GenerateResource.cache
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.AssemblyInfoInputs.cache
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.AssemblyInfo.cs
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.csproj.CoreCompileInputs.cache
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.csproj.CopyComplete
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\refint\BB PP calculator.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.pdb
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.genruntimeconfig.cache
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\ref\BB PP calculator.dll
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.dll.manifest
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\bin\Release\net7.0-windows\BB PP calculator.application
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.dll.manifest
+F:\Visual Studio\TestProjects\BB PP calculator\BB PP calculator\obj\Release\net7.0-windows\BB PP calculator.application
